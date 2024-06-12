@@ -10,24 +10,24 @@ export const ProductDisplay = (props) => {
     <div className='productdisplay'>
         <div className="productdisplay-left">
             <div className="productdisplay-img-list">
-                <img src={product.image} alt="" />
-                <img src={product.image} alt="" />
-                <img src={product.image} alt="" />
+                <img src={product.image} alt="Some alt text" />
+                <img src={product.image} alt="Some alt text" />
+                <img src={product.image} alt="Some alt text" />
                 {/* <img src={product.image} alt="" /> */}
             </div>
             <div className="productdisplay-img">
-                <img className='productdisplay-main-img' src={product.image} alt="" />
+                <img className='productdisplay-main-img' src={product.image} alt="Some alt text" />
             </div>
         </div>
 
         <div className="productdisplay-right">
             <h1>{product.name}</h1>
             <div className="productdisplay-right-star">
-                <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
-                <img src={star_dull_icon} alt="" />
+                <img src={star_icon} alt="Some alt text" />
+                <img src={star_icon} alt="Some alt text" />
+                <img src={star_icon} alt="Some alt text" />
+                <img src={star_icon} alt="Some alt text" />
+                <img src={star_dull_icon} alt="Some alt text" />
                 <p>(122)</p>
             </div>
             <div className="productdisplay-right-prices">
